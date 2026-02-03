@@ -14,15 +14,15 @@
 // Solicitud 2: Realice una solicitud GET para consultar la información de un usuario
 // específico, utilizando su identificador.
 
-const Funcionidentificador = async (id) =>
-{
-    const usuarioid = await fetch(`http://localhost:3000/users/${id}`)
-    const data = await usuarioid.json();
-    console.log(data);
+// const Funcionidentificador = async (id) =>
+// {
+//     const usuarioid = await fetch(`http://localhost:3000/users/${id}`)
+//     const data = await usuarioid.json();
+//     console.log(data);
     
-}
+// }
 
-Funcionidentificador(2);
+// Funcionidentificador(2);
 
 // Solicitud 3: Realice una solicitud GET para obtener todas las publicaciones (posts)
 // asociadas a un usuario determinado.
